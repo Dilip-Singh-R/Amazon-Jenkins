@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent{
+        label 'dilipslave1'
+    }
     stages {
 
         stage('pull') {
