@@ -1,6 +1,6 @@
 pipeline {
     agent{
-        label 'dilipslave2'
+        label 'wslave'
     }
     stages {
 
